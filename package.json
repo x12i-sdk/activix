@@ -2,14 +2,15 @@
   "name": "activix-usage",
   "version": "1.0.0",
   "private": true,
-  "description": "Usage example for @x12i/activix-docs: list the bundled guides and read a use case.",
+  "description": "Tested consuming examples for @x12i/activix-docs, @x12i/activix",
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
     "start": "node src/index.mjs",
-    "check": "node --check src/index.mjs"
+    "check": "node --check src/index.mjs",
+    "example:activix": "node src/activix-example.mjs"
   },
   "devDependencies": {
     "@x12i/activix-docs": "1.0.0"
@@ -18,5 +19,8 @@
     "type": "git",
     "url": "https://github.com/x12i-sdk/activix.git"
   },
-  "homepage": "https://www.npmjs.com/package/@x12i/activix-docs"
+  "homepage": "https://www.npmjs.com/package/@x12i/activix-docs",
+  "dependencies": {
+    "@x12i/activix": "9.0.6"
+  }
 }

@@ -29,3 +29,20 @@ This is a documentation knowledge SDK. It is installed as a development dependen
 - [npm package](https://www.npmjs.com/package/@x12i/activix-docs)
 
 The `package.json` in this repository is private to prevent accidental publication of the example application under an npm package name.
+
+## @x12i/activix runtime example
+
+Generic two-phase activity lifecycle tracker built on @x12i/xronox-store.
+
+Track a small activity from start through completion in memory. This example consumes `@x12i/activix@9.0.6`.
+
+```sh
+npm install --ignore-scripts
+npm run example:activix
+```
+
+Source: [`src/activix-example.mjs`](src/activix-example.mjs). The original documentation-package example remains available through `npm start`. Both examples are checked independently.
+
+## Runtime example scope
+
+The runtime consumer uses local synthetic data. It does not invoke a model, connect to MongoDB, or publish a package. Any temporary workspace is created and removed by the example. Documentation and runtime examples have separate commands and are validated separately.
