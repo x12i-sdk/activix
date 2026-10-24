@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/activix-docs",
+  "packageVersion": "1.0.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/activix-docs",
+  "usageRepository": "https://github.com/x12i-sdk/activix",
+  "sourceRepository": null,
+  "sourceCommit": null,
+  "sourcePackageDirectory": null,
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:00:12.768728+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "f360dee9e5040029e9471453fd4d725ce23dc9d7ab92df352ce96bb267625f7a",
+    "manifestSha256": "515013b45a8e769493d1455500ac86a77d0d8e2760206ef0da43e1529771a1ba"
+  },
+  "npmPackages": [
+    "@x12i/activix-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
